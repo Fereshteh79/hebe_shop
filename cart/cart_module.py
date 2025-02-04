@@ -1,4 +1,4 @@
-from hebe_shop.product.models import Product
+from product.models import Product
 
 CART_SESSION_ID = 'cart'
 

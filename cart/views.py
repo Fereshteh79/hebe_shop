@@ -5,10 +5,10 @@ from django.contrib.sites import requests
 from django.shortcuts import render, get_object_or_404, redirect
 from django.views import View
 
-from hebe_shop.cart.cart_module import Cart
-from hebe_shop.cart.models import Order, OrderItem, DiscountCode
+from cart.cart_module import Cart
+from cart.models import Order, OrderItem, DiscountCode
 from hebe_shop import settings
-from hebe_shop.product.models import Product
+from product.models import Product
 
 
 # Create your views here.

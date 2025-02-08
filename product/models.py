@@ -26,7 +26,7 @@ class Color(models.Model):
 
 
 class Product(models.Model):
-    objects = models.CharField(null=True, blank=True)
+    object = models.CharField(max_length=100,null=True, blank=True)
     category = models.ManyToManyField(Category, blank=True, null=True)
     title = models.CharField(max_length=30)
     description = models.TextField()

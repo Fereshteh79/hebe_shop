@@ -75,7 +75,7 @@ class User(AbstractBaseUser):
 
 
 class Otp(models.Model):
-    objects = models.CharField(null=True)
+    object = models.CharField(max_length=200,null=True)
     token = models.CharField(max_length=200, null=True)
     phone = models.CharField(max_length=11)
     code = models.SmallIntegerField()

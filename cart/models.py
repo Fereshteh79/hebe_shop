@@ -1,7 +1,7 @@
 from django.db import models
 
-from hebe_shop.account.models import User
-from hebe_shop.product.models import Product
+from account.models import User
+from product.models import Product
 
 
 # Create your models here.

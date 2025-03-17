@@ -9,9 +9,9 @@ from django.shortcuts import render, redirect
 from django.views import View
 from ghasedakpack import ghasedakpack
 
-from account.forms import LoginForm, RegisterForm, CheckOtpForm, OtpLoginForm, AddressCreationForm
-from account.models import Otp, Address
-from account.testsms import sms
+from forms import LoginForm, RegisterForm, CheckOtpForm, OtpLoginForm, AddressCreationForm
+from models import Otp
+from testsms import sms
 
 SMS = ghasedakpack.Ghasedak("")
 

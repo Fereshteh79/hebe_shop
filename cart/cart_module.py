@@ -1,4 +1,4 @@
-from product.models import Product
+from .models import Product
 
 CART_SESSION_ID = 'cart'
 
